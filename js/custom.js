@@ -141,18 +141,10 @@ function invert(target) {
 	return invertedTarget;
 }
 
-var lastFirst = "";
-
 function execute() {
 	if (shouldContinue) {
 		var last = input.stack[input.stack.length - 1];
-		if (!input.value[0] && last) {
-			var first = lastFirst;
-			lastFirst = undefined;
-		} else {
-			var first = input.value[0];
-			lastFirst = first;
-		}
+		var first = input.value[0];
 
 		var html = "<tr> <td>" + '$' + input.stack + "</td> <td>" + input.value + '$' + "</td>";
 
