@@ -1,0 +1,46 @@
+.center-text
+{
+     text-align: center;
+}
+
+.full-width
+{
+    width: 100%;
+}
+
+.pagination li
+{
+    /*width: 17px;
+    height: 17px;*/
+}
+
+.char-ok
+{
+    color: #FFF;
+    background-color: #28a745;
+}
+
+.char-error
+{
+    color: #FFF;
+    background-color: #dc3545;
+}
+
+.container
+{
+    margin-bottom: 50px;
+}
+
+.back-to-top
+{
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.hidden
+{
+    display: none;
+}
